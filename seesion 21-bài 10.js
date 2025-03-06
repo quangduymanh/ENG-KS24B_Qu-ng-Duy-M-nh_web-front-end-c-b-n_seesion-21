@@ -3,14 +3,14 @@ let count = 0;
 let num = 2;
 let number = "";
 while (count < n) {
-    let isPrime = true;
+    let num3 = true;
     for (let i = 2; i < num; i++) {
         if (num % i === 0) {
-            isPrime = false;
+            num3 = false;
             break;
         }
     }
-    if (isPrime) {
+    if (num3) {
         number += num + " ";
         count++;
     }
